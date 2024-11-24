@@ -1,0 +1,148 @@
+body {
+  background: linear-gradient(45deg, #ff00c3, #00ff99, #0099ff);
+  background-size: 600% 600%;
+  animation: gradient 6s ease infinite;
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+header {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #fff;
+  text-shadow: 0 0 5px #ff00c3, 0 0 10px #ff00c3, 0 0 15px #ff00c3;
+  margin-top: 20px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.search input {
+  padding: 10px;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #fff;
+  font-size: 1.2rem;
+  width: 300px;
+  border-radius: 30px;
+  box-shadow: 0 0 10px #00ff99, 0 0 20px #00ff99;
+}
+
+.search i {
+  color: #00ff99;
+  margin-left: 10px;
+  font-size: 1.5rem;
+}
+
+.material-icons {
+  color: #ff00c3;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.info-text {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  text-shadow: 0 0 5px #00ff99, 0 0 10px #00ff99;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+li.word {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  font-size: 1.5rem;
+}
+
+li.word .details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+li.word .details p {
+  font-size: 1.3rem;
+  color: #ff00c3;
+}
+
+li.word .details span {
+  color: #00ff99;
+}
+
+li.word i {
+  color: #ff00c3;
+  font-size: 2rem;
+  margin-left: 15px;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.6);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 255, 255, 1);
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 30px;
+  background: linear-gradient(45deg, #00ff99, #ff00c3, #0099ff);
+  background-size: 600% 600%;
+  animation: gradient 6s ease infinite;
+  color: #fff;
+  font-size: 14px;
+  text-shadow: 0 0 5px #ff00c3, 0 0 10px #00ff99, 0 0 15px #0099ff;
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
